@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">PLAS</string>
+
+
+    <string name="fingerprint_description">Confirm fingerprint to continue</string>
+    <string name="fingerprint_hint">Touch sensor</string>
+
+    <string name="fingerprint_not_recognized">Fingerprint not recognized. Try again</string>
+    <string name="fingerprint_success">Fingerprint recognized</string>
+    <string name="description_fingerprint_icon">Fingerprint icon</string>
+
+
+    <string name="title_fingerprint">Password Less Authentication System</string>
+    <string name="desc_fingerprint">Please place your fingertip on the scanner to verify your identity</string>
+    <string name="note">(PLAS-Password Less Authentication System , will help you to access your online profile by verifying your finger print)</string>
+    <string name="title_activity_home">Fingerprint</string>
+    <string name="activity_home_desc">You have successfully logged in with fingerprint authentication</string>
+
+    <string name="url">http://10.0.0.10/plas</string>>
+
+</resources>

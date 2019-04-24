@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".ExistingUser">
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/title"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to PLAS!"
+        />
+    <TextView
+        android:gravity="center"
+        android:id="@+id/hit"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Existing user log in"
+        />
+    <TextView
+        android:id="@+id/nameT"
+        android:textSize="25sp"
+        android:layout_marginTop="25dp"
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        />
+    <EditText
+        android:hint="enter your name"
+        android:id="@+id/name"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/usernameT"
+        android:textSize="25sp"
+        android:layout_marginTop="25dp"
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        />
+    <EditText
+        android:hint="enter your username"
+        android:id="@+id/username"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/emailT"
+        android:textSize="25sp"
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        />
+    <EditText
+        android:layout_marginTop="15dp"
+        android:id="@+id/email"
+        android:hint="enter your email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tokenT"
+        android:textSize="25sp"
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Token"
+        />
+    <EditText
+        android:layout_marginTop="15dp"
+        android:id="@+id/token"
+        android:hint="enter your verification token"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="Verify"
+        android:layout_marginTop="25dp"
+        android:paddingTop="25dp"
+        android:onClick="verifyDetails"
+        android:paddingBottom="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
